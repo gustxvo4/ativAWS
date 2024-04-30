@@ -1,6 +1,8 @@
 const express = require("express"); //importa o módulo express neste arquivo
 const app = express(); //iniciando o express
 
+
+//COMMIT 2
 //criando a rota inicial
 app.get("/", function(req,res){
     res.send("<h1>SITE ATIVIDADE AWS</h1>");
